@@ -1,5 +1,5 @@
 package pl.brightinventions.slf4android;
 
-interface LoggerPatternConfiguration {
+public interface LoggerPatternConfiguration {
     Iterable<? extends LoggerPattern> getPatterns();
 }
